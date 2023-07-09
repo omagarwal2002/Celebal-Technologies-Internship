@@ -1,2 +1,2 @@
 # Celebal-Technologies-Internship
-This repo contains all my weekly tasks that I have performed during my summer intern at Celebal Technoligies.
+This repo contains all my tasks and projects that I have performed during my summer intern at Celebal Technoligies.
