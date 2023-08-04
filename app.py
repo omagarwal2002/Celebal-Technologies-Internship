@@ -8,11 +8,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense
 from tensorflow.keras.applications import ResNet50
 
-# Function to download the model weights file
-def download_model_weights(url, save_path):
-    response = requests.get(url)
-    with open(save_path, 'wb') as f:
-        f.write(response.content)
+
 
 # Download the model weights if not already present
 model_weights_url = "https://github.com/omagarwal2002/Celebal-Technologies-Internship/raw/main/resnet_model.h5"
