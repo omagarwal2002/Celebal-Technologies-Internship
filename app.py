@@ -1,4 +1,4 @@
-% pip install tensorflow
+pip install requirements.txt
 
 import streamlit as st
 import numpy as np
