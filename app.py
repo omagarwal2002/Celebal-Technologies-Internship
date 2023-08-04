@@ -22,7 +22,7 @@ model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accur
 
 # Load the pre-trained ResNet model
 resnet_model = model
-resnet_model.load_weights("https://drive.google.com/file/d/16URFcdi7pJsjhzWBvUt0piG1bl5cpBWA/view?usp=drive_link/resnet_model.h5")
+resnet_model.load_weights("https://github.com/omagarwal2002/Celebal-Technologies-Internship/blob/main/resnet_model.h5")
 
 # Action label mapping
 label_map = {
