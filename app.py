@@ -70,7 +70,7 @@ API_ENDPOINT = "https://api.celebal.com/v1/action/predict"
 # Function to make API request
 def make_api_request(uploaded_image):
     image = read_image(uploaded_image)
-    base64_string = base64.b64encode(image.tobytes())
+    base64_string = base64.b64encode(image.tobytes()).decode()
 
     data = {"image": base64_string}
 
