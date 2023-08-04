@@ -66,10 +66,17 @@ def make_prediction(test_image):
 API_ENDPOINT = "https://api.celebal.com/v1/action/predict"
 
 # Function to make API request
-def make_api_request(test_image):
-    data = {"image": test_image}
-    response = requests.post(API_ENDPOINT, json=data)
+def make_api_request(uploaded_image):
+    image = read_image(uploaded_image)
+    base64_string = base64.b64encode(image.tobytes())
+
+    data = {"image": base64_string}
+
+    json_string = json.dumps(data)
+
+    response = requests.post(API_ENDPOINT, json=json_string)
     return response
+
 
 # Streamlit app
 def main():
