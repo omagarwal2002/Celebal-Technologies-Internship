@@ -7,6 +7,14 @@ from tensorflow.keras.utils import to_categorical
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense
 from tensorflow.keras.applications import ResNet50
+import firebase_admin
+from firebase_admin import credentials
+from firebase_admin import firestore
+
+
+cred = credentials.Certificate("path/to/serviceAccountKey.json")
+firebase_admin.initialize_app(cred)
+
 
 # Function to read and preprocess the image
 def read_image(fn):
