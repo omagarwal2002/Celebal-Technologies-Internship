@@ -12,7 +12,7 @@ from firebase_admin import credentials
 from firebase_admin import firestore
 
 
-cred = credentials.Certificate("path/to/serviceAccountKey.json")
+cred = credentials.Certificate("https://github.com/omagarwal2002/Celebal-Technologies-Internship/blob/main/human-activity-recogniti-4ab89-firebase-adminsdk-xandk-74648c94cd.json)
 firebase_admin.initialize_app(cred)
 
 
