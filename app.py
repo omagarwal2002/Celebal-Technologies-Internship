@@ -62,6 +62,15 @@ def make_prediction(test_image):
     probability = np.max(result) * 100
     return predicted_class, probability
 
+# API Endpoint
+API_ENDPOINT = "https://api.celebal.com/v1/action/predict"
+
+# Function to make API request
+def make_api_request(test_image):
+    data = {"image": test_image}
+    response = requests.post(API_ENDPOINT, json=data)
+    return response
+
 # Streamlit app
 def main():
     st.title("Human Action Recognition")
@@ -76,6 +85,9 @@ def main():
 
         # Make prediction
         predicted_class, probability = make_prediction(uploaded_image)
+
+        # Make API request
+        api_response = make_api_request(uploaded_image)
 
         # Display the prediction
         st.write(f"Predicted Action: {label_map[predicted_class]}")
