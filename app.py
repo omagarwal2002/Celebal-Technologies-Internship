@@ -1,3 +1,6 @@
+import base64
+import requests
+import json
 import streamlit as st
 import numpy as np
 from PIL import Image
@@ -7,9 +10,6 @@ from tensorflow.keras.utils import to_categorical
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense
 from tensorflow.keras.applications import ResNet50
-import requests
-import json
-import base64
 
 # Function to download the model weights file
 def download_model_weights(url, save_path):
