@@ -19,7 +19,7 @@ In this repository, you will find the following key files:
 For this project, I used the HAR dataset from Kaggle. The dataset contains labeled keypoints of human actions, and you can find it here: [HAR Dataset on Kaggle](https://www.kaggle.com/datasets/meetnagadia/human-action-recognition-har-dataset). Make sure to credit the original dataset creators when using their data.
 
 # Outputs
-The key outputs of this project are:
+Here are some sample outputs of my model:
 
 # My Web App
 I have deployed a web application where you can try out my model interactively. You can access the web app through this link: [Human Action Recognition Web App](https://celebal-technologies-internship-mrpziagpwsv8diezfcjrqt.streamlit.app/). Have fun exploring the model's performance and its recognition capabilities!
