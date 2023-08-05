@@ -21,9 +21,9 @@ For this project, I used the HAR dataset from Kaggle. The dataset contains label
 # Outputs
 Here are some sample outputs of my model:
 
-![image](![image](https://github.com/omagarwal2002/Celebal-Technologies-Internship/assets/75072839/09432183-0397-40a4-8e80-a744c053dee2))
+![image](https://github.com/omagarwal2002/Celebal-Technologies-Internship/assets/75072839/09432183-0397-40a4-8e80-a744c053dee2)
 
-![image](![image](https://github.com/omagarwal2002/Celebal-Technologies-Internship/assets/75072839/349e33d9-9cff-43ee-b5e2-5dd1fef4042f))
+![image](https://github.com/omagarwal2002/Celebal-Technologies-Internship/assets/75072839/349e33d9-9cff-43ee-b5e2-5dd1fef4042f)
 
 
 # My Web App
