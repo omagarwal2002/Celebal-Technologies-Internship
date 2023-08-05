@@ -21,6 +21,11 @@ For this project, I used the HAR dataset from Kaggle. The dataset contains label
 # Outputs
 Here are some sample outputs of my model:
 
+![image](![image](https://github.com/omagarwal2002/Celebal-Technologies-Internship/assets/75072839/09432183-0397-40a4-8e80-a744c053dee2))
+
+![image](![image](https://github.com/omagarwal2002/Celebal-Technologies-Internship/assets/75072839/349e33d9-9cff-43ee-b5e2-5dd1fef4042f))
+
+
 # My Web App
 I have deployed a web application where you can try out my model interactively. You can access the web app through this link: [Human Action Recognition Web App](https://celebal-technologies-internship-mrpziagpwsv8diezfcjrqt.streamlit.app/). Have fun exploring the model's performance and its recognition capabilities!
 
