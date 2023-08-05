@@ -1,4 +1,4 @@
-Human Action Recognition 
+# Human Action Recognition 
 
 # Introduction:
 Welcome to my GitHub repository for Human Action Recognition using keypoints! This project is the result of my Celebal internship, where I aimed to develop a deep learning model capable of recognizing human actions based on keypoints. The repository contains all the necessary code and files to replicate and explore the project.
